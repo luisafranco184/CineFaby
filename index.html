@@ -154,6 +154,10 @@
             object-position: center 30%;
         }
 
+        #carousel2 .carousel-slide:nth-child(2) img {
+            object-position: center 45%;
+        }
+
         .carousel-btn {
             position: absolute;
             top: 50%;
@@ -428,15 +432,6 @@
                 
                 <!-- Sostituisci con l'immagine del biglietto -->
                 <img src="images/IMG_0209.jpeg" alt="Biglietto Concerto">
-                
-                <div class="ticket-details">
-                    <p><strong>🎤 Artista:</strong> [Nome Artista]</p>
-                    <p><strong>📅 Data:</strong> [Data Concerto]</p>
-                    <p><strong>📍 Luogo:</strong> [Venue]</p>
-                    <p style="margin-top: 20px; font-size: 1.1em; color: #d4af37;">
-                        Un altro momento da aggiungere al film della tua vita! 🎬✨
-                    </p>
-                </div>
             </div>
         </div>
     </div>
@@ -444,7 +439,7 @@
     <div class="container">
         <div class="ticket">
             <div class="ticket-header">
-                <h1>🎬 Buon Compleanno 🎬</h1>
+                <h1>🎬Buon Compleanno🎬</h1>
                 <p>Biglietto Cinema - Edizione Speciale</p>
             </div>
             
@@ -461,19 +456,16 @@
                                 <img src="images/9.JPG" alt="Festeggiata 2">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/13.JPG" alt="Festeggiata 3">
+                                <img src="images/14.JPG" alt="Festeggiata 3">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/14.JPG" alt="Festeggiata 4">
+                                <img src="images/15.JPG" alt="Festeggiata 4">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/15.JPG" alt="Festeggiata 5">
+                                <img src="images/18.JPG" alt="Festeggiata 5">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/18.JPG" alt="Festeggiata 6">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="images/7.JPG" alt="Festeggiata 7">
+                                <img src="images/7.JPG" alt="Festeggiata 6">
                             </div>
                         </div>
                         <button class="carousel-btn prev" onclick="changeSlide(0, -1)">‹</button>
@@ -491,31 +483,22 @@
                                 <img src="images/2.JPG" alt="Con amiche 1">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/3.JPG" alt="Con amiche 2">
+                                <img src="images/27.JPG" alt="Con amiche 2">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/5.JPG" alt="Con amiche 3">
+                                <img src="images/16.JPG" alt="Con amiche 3">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/8.JPG" alt="Con amiche 4">
+                                <img src="images/17.JPG" alt="Con amiche 4">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/27.JPG" alt="Con amiche 5">
+                                <img src="images/20.JPG" alt="Con amiche 5">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/16.JPG" alt="Con amiche 6">
+                                <img src="images/23.JPG" alt="Con amiche 6">
                             </div>
                             <div class="carousel-slide">
-                                <img src="images/17.JPG" alt="Con amiche 7">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="images/20.JPG" alt="Con amiche 8">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="images/23.JPG" alt="Con amiche 9">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="images/12.JPG" alt="Con amiche 10">
+                                <img src="images/12.JPG" alt="Con amiche 7">
                             </div>
                         </div>
                         <button class="carousel-btn prev" onclick="changeSlide(1, -1)">‹</button>
@@ -525,15 +508,16 @@
                 </div>
 
                 <div class="message-box">
-                    <h2>Trama del Film</h2>
+                    <h2>🎬 Recensione Critica 🎬</h2>
                     <p>
                         Un altro anno insieme, un altro giro di avventure completato.
-                        <br><br>
-                        Grazie per tutte le risate, i momenti assurdi e per essere sempre 
-                        la persona con cui condividere tutto. Sei una di quelle persone rare 
-                        che rendono tutto più divertente.
-                        <br><br>
-                        Buon compleanno! 🎂🎬
+                        <br>
+                        Oggi celebriamo la premiere del tuo nuovo anno, con l'augurio che potrà essere da Oscar.
+                        <br>
+                        Dal behind the scenes ai momenti da box office, riesci sempre a rendere 
+                        tutto memorabile, nonostante la nostra storyline vada avanti da un po'. La nostra amicizia merita un posto nella hall of fame!
+                        <br>
+                        Buon compleanno! 🎂
                     </p>
                 </div>
 
@@ -558,8 +542,8 @@
     <script>
         // Configurazione dei carousel
         const carousels = [
-            { id: 'carousel1', current: 0, total: 7 },
-            { id: 'carousel2', current: 0, total: 10 }
+            { id: 'carousel1', current: 0, total: 6 },
+            { id: 'carousel2', current: 0, total: 7 }
         ];
 
         // Inizializza gli indicatori
